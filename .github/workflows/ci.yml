@@ -1,4 +1,4 @@
-name: Attu docker build test
+name: Attu docker build test 2
 
 on:
   pull_request:
