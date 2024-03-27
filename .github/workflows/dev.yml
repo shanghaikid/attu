@@ -40,6 +40,6 @@ jobs:
         with:
           context: .
           platforms: ${{ matrix.platform }}
-          tags: zilliz/attu:dev
+          tags: shanghaikid/attu:dev
           build-args: VERSION=dev
           push: true
