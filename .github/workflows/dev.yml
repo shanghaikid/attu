@@ -43,3 +43,5 @@ jobs:
           tags: shanghaikid/attu:dev
           build-args: VERSION=dev
           push: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
